@@ -1,0 +1,100 @@
+\section{Třídy a objekty}
+
+\lstset{
+  language=C++,                % Nastavení jazyka pro zvýraznění syntaxe
+  basicstyle=\ttfamily\small,  % Nastavení písma pro kód
+  keywordstyle=\color{blue},    % Barva pro klíčová slova
+  commentstyle=\color{green},  % Barva pro komentáře
+  stringstyle=\color{red},     % Barva pro řetězce
+  numbers=left,                % Čísla řádků na levé straně
+  numberstyle=\tiny\color{gray},
+  stepnumber=1,                % Čísla řádků se budou zobrazovat každý řádek
+  numbersep=5pt,               % Vzdálenost mezi čísly řádků a kódem
+  frame=single,                % Rám kolem kódu
+  tabsize=4,                   % Velikost tabulátoru
+  showspaces=false,            % Nezobrazovat mezery
+  showstringspaces=false,      % Nezobrazovat mezery v řetězcích
+  breaklines=true,             % Zalamování dlouhých řádků
+}
+
+\subsection{Co je hlavními příčinami potřeby změn software?}
+\begin{enumerate}
+    \item \textbf{Technologický pokrok}
+    \item \textbf{Zmeny v užívateľkých požiadavkách}
+    \item \textbf{Bezpečnosť}
+    \item \textbf{Chyby a problémy}
+    \item \textbf{Zmeny v legislatíve}
+    \item \textbf{Zastaralosť softwaru}
+    \item \textbf{Zlepšenie užívateľského zážitku}
+    \item \textbf{Prechod na cloud alebo inú architektúru}
+    \item \textbf{Konkurenčný tlak}
+\end{enumerate}
+
+\subsection{Jaké jsou hlavní faktory ovlivňující objektovou orientovanost?}
+\begin{itemize}
+    \item metóda a jazyk
+    \item implementácia a prostredie
+    \item knižnice
+\end{itemize}
+
+
+\subsection{Vysvětlete, co rozumíme pojmy objektově orientovaná metoda (přístup) a jazyk.}
+Nejde len o programovací jazyk a spôsob jeho použitia, ide aj o spôsob uvažovania a vyjadrovania a taktiež o záznamy v textovej alebo grafickej forme.
+
+\begin{itemize}
+    \item trieda
+    \item trieda ako modul
+    \item trieda ako typ
+    \item zasielanie správ
+    \item skrývanie informácií
+    \item statická kontrola typov
+    \item dedičnosť, redefinícia, polymorfizmus, dynamická väzba
+    \item generickosť
+    \item správa pamäti a garbage collector
+\end{itemize}
+
+\subsection{Vysvětlete, co rozumíme podporou objektově orientované implementace.}
+Je to podpora vývoja. Zahŕňa vlastnosti a efektivitu nástrojov pre vývoj, nástroje pre podporu nasadenia nových verzií a nástroje pre podporu dokumentovania.
+
+
+\subsection{Vysvětlete, co rozumíme podporou opakované použitelnosti.}
+Znemená to navrhovanie a vytváranie komponént, modulov, kódu alebo systému takým spôsobom, aby boli ľahko použiteľné v rôznych kontextoch alebo projektoch bez nutnosti ich opätovného vytvárania alebo prepisovania.
+
+Príklady:
+\begin{itemize}
+    \item Knižnice a frameworky
+    \item Kódové šablóny
+    \item Cloudové služby a API
+\end{itemize}
+
+
+\subsection{Vysvětlete pojmy třída a objekt a použijte správnou terminologii.}
+\textbf{Trieda} je časť software, ktorá popisuje abstraktný dátový typ a jeho implementáciu. \newline
+\textbf{Objekt} je abstraktný dátový typ so spoločným chovaním reprezentovaným zoznamom operácií, ktoré vie objekt vykonávať.
+
+
+\subsection{Zdůrazněte vlastnosti třídy z pohledu modularity.}
+Triedy nepopisujú len typy objektov, ale musia byť zároveň modulárnymi jednotkami. V čisto OOP by nemali byť iné samostatné jednotky než triedy.
+
+
+\subsection{Vysvětlete princip zapouzdření v OOP.}
+Zapúzdrenie (enkapsulácia) obmedzuje prístup k určitým častiam objektu a poskytuje kontrolu nad tým, ako sú dáta a funkcie v objekte využívané. \newline
+Cieľom je ochrana dát a zjednodušenie správy komplexivity. Pre interakciu s dátami objektu a jeho ovládanie sa používajú metódy \textbf{Getter} a \textbf{Setter}.
+
+
+\subsection{Vysvětlete princip zasílání zpráv.}
+Tento princíp slúži na komunikáciu medzi objektami aplikácie. Namiesto toho, aby objekty priamo pristupovali k internému stavu iných objektov alebo priamo volali ich metódy, komunikujú medzi sebou prostredníctvom správ. \newline
+Správy predstavujú požiadavky na vykonanie nejakej akcie, ktorú objekt vykonaná na základe prijatej správy. Tieto správy môžu byť volania metód, žiadosti o zmenu stavu objektu alebo žiadosť o dáta.
+
+
+\subsection{Vysvětlete principy deklarace a definice jednoduché třídy v C++.}
+\textbf{Deklarácia} je proces, pri ktorom definujeme štruktúru triedy, teda aké vlastnosti a chovanie trieda bude mať.
+class MyClass {
+public: // Specifikuje, že členy jsou veřejné (přístupné zvenčí)
+    MyClass(); // Konstruktor
+    void display(); // Veřejná metoda
+private: // Specifikuje, že členy jsou soukromé (nepřístupné zvenčí)
+    int x; // Soukromý atribut
+};
+\newline
+\textbf{Definícia} je proces, pri ktorom konkrétne určujeme ako budú metódy triedy implementované.
