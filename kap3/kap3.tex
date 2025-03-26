@@ -1,0 +1,49 @@
+\section{Návrh programu I}
+
+\subsection{Vysvětlete, jak vznikají objekty třídy, pojem konstruktor a principy práce s ním v C++.}
+Objekt je inštanciou triedy. Je reprezentáciou nejakej entity, ktorá má stav reprezentovaný dátami a chovanie reprezentované metódami.\newline
+Vzniká konštruktorom, ktorý inicializuje objekty. Nemá návratovú hodnotu, pokiaľ nie je deklarovaný, vytvorí sa automaticky. Pri statickej deklarácii sa volá automaticky, inak je nutné použiť \textbf{new}. Môže ich byť viac, ale musia sa líšiť počtom alebo typom parametrov.
+
+
+\subsection{Vysvětlete, jak zanikají objekty třídy, pojem destruktor a principy práce s ním v C++.}
+Objekty zanikajú deštruktorom. Ten slúži pre dealokovanie dynamicky vytvorenej pamäti. Nemá návratovú hodnotu. Pokiaľ nie je definovaný, vytvorí sa automaticky. Pri statickej deklarácii sa volá automaticky, inak s použitím \textbf{delete}.
+
+
+\subsection{Vysvětlete rozdíl mezi statickou a dynamickou deklarací objektů v C++.}
+\textbf{Statická deklarácia:} objekt je na zásobníku, jeho životnosť je automatická a riadená blokom, v ktorom bol vytvorený. \newline
+\textbf{Dynamická deklarácia:} objekt je na halde, jeho životnosť je riadená manuálne pomocou new a delete.
+
+
+\subsection{Jak se dá postupovat, pokud chceme v zadání programu nalézt třídy, jejich metody a datové
+členy?}
+\begin{itemize}
+    \item \textbf{triedy} - často opakujúce sa podstatné mená
+    \item \textbf{metódy} - slovesá
+    \item \textbf{dáta} - podstatné mená
+\end{itemize}
+
+
+\subsection{Kdy a proč potřebujeme použit více konstruktorů jedné třídy?}
+V prípade, že potrebujeme viacero inštancií danej triedy s rôznym počtom alebo typom parametrov.
+
+
+\subsection{Kdy potřebujeme deklarovat a definovat destruktor?}
+Keď sú dáta objektu dynamické.
+
+
+\subsection{Co jsou výchozí konstruktory a destruktory a k čemu je potřebujeme?}
+Východzí konštruktor je automaticky definovaný kompilátorom, pokiaľ nie je explicitne deklarovaný. Slúži k vytvoreniu objektu s východzími hodnotami. \newline
+Východzí deštruktor je automaticky definovaný kompilátorom, pokiaľ nie je explicitne deklarovaný. Slúži k zničeniu objektu bez špecifickej činnosti.
+
+
+\subsection{Jaké typy metod obvykle musíme deklarovat a definovat?}
+\begin{itemize}
+    \item konštruktor a deštruktor
+    \item metódy poskytujúce informácie o stave objektu (getter)
+    \item metódy meniace stav objektu (setter)
+\end{itemize}
+
+
+\subsection{Co jsou objektové kompozice a k čemu jsou dobré?}
+Objekt môže byť súčasťou iného objektu a stáva sa jeho dátovou položkou. \newline
+Vznikajú tak komponované objekty s presne definovanými kompetenciami. Tie však môžu byť realizované prostredníctvom iterácie objektov, z ktorých sú komponované.
