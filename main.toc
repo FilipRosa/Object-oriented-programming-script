@@ -37,3 +37,10 @@
 \contentsline {subsection}{\numberline {3.7}Co jsou výchozí konstruktory a destruktory a k čemu je potřebujeme?}{10}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Jaké typy metod obvykle musíme deklarovat a definovat?}{11}{subsection.3.8}%
 \contentsline {subsection}{\numberline {3.9}Co jsou objektové kompozice a k čemu jsou dobré?}{11}{subsection.3.9}%
+\contentsline {section}{\numberline {4}Objektová dekompozice a třída jako objekt}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Jaký je rozdíl mezi funkční a objektovou dekompozicí programu?}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Proč preferujeme objektovou dekompozici a jaké jsou hlavní problémy funkční dekompozice?}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Za jakých podmínek můžeme považovat třídu za objekt a jak to implementovat v C++?}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Vysvětlete rozdíl mezi členskými položkami třídy a instance a popište jejich dostupnost.}{12}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Jak můžeme v C++ důsledně odlišovat práci s členskými položkami tříd a instancí?}{12}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Potřebuje třída v roli objektu konstruktor resp. destruktor a proč?}{13}{subsection.4.6}%

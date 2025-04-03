@@ -1,0 +1,33 @@
+\section{Objektová dekompozice a třída jako objekt}
+\subsection{Jaký je rozdíl mezi funkční a objektovou dekompozicí programu?}
+\textbf{Funkčná dekompozícia} sa zameriava na rozdelenie programu do samostatných funkcií alebo procedúr, ktoré vykonávajú konkrétne úlohy.\newline
+\textbf{Objektová kompozícia} je charakteristická pre OOP. Program je v nej rozdelený objekty, ktoré sú inštanciami tried.
+
+\subsection{Proč preferujeme objektovou dekompozici a jaké jsou hlavní problémy funkční
+dekompozice?}
+Objektová dekompozícia nám umožňuje používať lepšie modelovať reálne objekty a ich interakcie. Môžeme používať enkapsuláciu, dedičnosť, polymorfizmus a umožňuje nám lepšiu rozšíriteľnosť. \newline
+Problémy funkčnej dekompozície sú zlá rozšíriteľnosť, nedostatok štruktúr pre zložitejšie systémy, obmedzená reprezentácia zložitých entít, horšie testovanie a debugging.
+
+\subsection{Za jakých podmínek můžeme považovat třídu za objekt a jak to implementovat v
+C++?}
+Trieda sa stáva objektom ak:
+\begin{itemize}
+    \item obsahuje dáta, ktoré reprezentujú vlastnosti objektu
+    \item má metódy
+    \item má konštruktor
+    \item môže mať prístupové modifikátory
+    \item môže využívať dedičnosť a polymorfizmus
+\end{itemize}
+
+\subsection{Vysvětlete rozdíl mezi členskými položkami třídy a instance a popište jejich
+dostupnost.}
+\textbf{Členské položky triedy} sú spojené s triedou ako celkom, môžeme k nim pristupovať bez potreby vytvárať inštanciu triedy, ale pristupujeme k nim prostredníctvom samostatnej triedy. Tieto položky sú zdieľané medzi všetkými inštanciami triedy. \newline
+\textbf{Členské položky inštancie} sú spojené s konkrétnymi inštanciami triedy. Každá inštancia má svoju vlastnú kópiu týchto atribútov a metód. K položkám pristupujeme pomocou objektu.
+
+\subsection{Jak můžeme v C++ důsledně odlišovat práci s členskými položkami tříd a
+instancí?}
+K \textbf{členským položkám triedy} pristupujeme pomocou názvu triedy - ClassName::staticMember. \newline
+K \textbf{členským položkám inštancie} pristupujeme prostredníctvom konkrétnej inštancie objektu - object.member.
+
+\subsection{Potřebuje třída v roli objektu konstruktor resp. destruktor a proč?}
+Áno, potrebuje. Konštruktor zaistí, že objekt je správne inicializovaný a pripravený k používaniu. Deštruktor zaisťuje správne uvoľnenie prostriedkov, aby sa predišlo únikom pamäti. Inak by to mohlo viesť k nesprávnemu chovaniu aplikácie.
