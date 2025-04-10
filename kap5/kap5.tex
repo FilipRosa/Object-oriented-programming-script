@@ -1,0 +1,34 @@
+\section{Úvod do dědičnosti}
+
+\subsection{Které dva klíčové požadavky řešíme pomocí dědičnosti?}
+Znovu-použiteľnosť a rozšíriteľnosť.
+
+\subsection{Jaké návrhové požadavky máme na použití tříd (co s nimi můžeme dělat)?}
+Kombinovanie s inými triedami, skladanie, rozšírenie o nové chovanie, pozmenenie existujúceho chovania.
+
+\subsection{Jaký je rozdíl mezi dědičností a skládáním? Co mají společného?}
+Skladaním docielime to, že objekt jednej triedy je zložený z objektov inej triedy. Jedná sa o vzťah ,,MÁ".\newline
+Dedičnosťou docielime to, že nová trieda je rozšírením alebo špeciálnym prípadom existujúcej triedy. Jedná sa o vzťah ,,JE".
+
+\subsection{V jakých rolích vystupují třídy v dědičnosti? Použijte správnou terminologii.}
+Predok - potomok, priamy predok - potomok. Rodič - dcéra (syn). Nadradená trieda - pod trieda.
+
+\subsection{Vysvětlete v jakém obecném vztahu je třída, ze které se dědí, se třídou, která dědí.}
+Trieda z ktorej sa dedí je rodičovská trieda. Potomok zdedí všetky metódy rodičovskej triedy. Môže dané chovanie rozšíriť alebo pozmeniť. Nemôže sa ho zbaviť.
+
+\subsection{Co všechno se dědí, co ne a proč?}
+Dedí sa všetko bez výnimky, rovnako aj miera skrývania informácie. Pretože predok definuje spoločné chovanie všetkých svojich potomkov. Potomkovia môžu toto chovanie rozšíriť či pozmeniť. Nemôžu sa ho zbaviť.
+
+\subsection{Co rozumíme jednoduchou dědičností a jak s tím souvisí hierarchie tříd v dědičnosti?}
+Každý potomok má práve jedného priameho predka. Predok môže mať viac priamych potomkov. Hierarchiou je strom.
+
+\subsection{Co je Liskové substituční princip a jak se projevuje v dědičnosti?}
+Potomok môže vždy zastúpiť predka a to preto, že majú spoločné chovanie. Opačne to neplatí.
+
+\subsection{V jakém pořadí se volají a vykonávají konstruktory při použití dědičnosti?}
+\begin{enumerate}
+    \item Volanie konštruktora objektu.
+    \item Volanie konštruktoru priameho predka.
+    \item Vykonanie konštruktoru priameho predka.
+    \item Vykonanie konštruktoru objektu.
+\end{enumerate}
