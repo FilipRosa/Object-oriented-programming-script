@@ -233,6 +233,9 @@ INPUT kap5/kap5.tex
 INPUT ./kap6/kap6.tex
 INPUT ./kap6/kap6.tex
 INPUT kap6/kap6.tex
+INPUT ./kap7/kap7.tex
+INPUT ./kap7/kap7.tex
+INPUT kap7/kap7.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

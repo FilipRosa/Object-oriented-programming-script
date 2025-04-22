@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.27)  22 APR 2025 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.12.27)  22 APR 2025 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -425,7 +425,7 @@ Overfull \hbox (29.83916pt too wide) in paragraph at lines 3--3
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...zice a tÅ™Ã­da jako objekt}{12}{section.4}
+l.40 ...zice a tÅ™Ã­da jako objekt}{13}{section.4}
                                                   % [1
 
 ]
@@ -433,13 +433,15 @@ Overfull \hbox (15.80788pt too wide) in paragraph at lines 43--43
  [][] [][]\T1/cmr/m/n/12 Za jakých podmínek m·ºeme povaºovat t°ídu za objekt a jak to implementovat 
  []
 
-)
+
+
+[2])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 
 
-[2] (kap1/kap1.tex (/home/filip/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+[3] (kap1/kap1.tex (/home/filip/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (/home/filip/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
@@ -472,7 +474,7 @@ Overfull \hbox (13.87115pt too wide) in paragraph at lines 40--41
 
 
 
-[3]
+[4]
 Overfull \hbox (20.98097pt too wide) in paragraph at lines 61--65
 \T1/cmr/m/n/12 ktoré nie sú potrebné pre klientov modulu zostaly skryté vnútri modulu. Vä£²ina funkcionality
  []
@@ -484,7 +486,7 @@ Overfull \hbox (9.46095pt too wide) in paragraph at lines 61--65
 
 
 
-[4]
+[5]
 Overfull \hbox (16.09319pt too wide) in paragraph at lines 97--97
 []\T1/cmr/bx/n/14.4 Popi²te jednotlivá kritéria dobré modularity. Uve¤te p°íklady. 
  []
@@ -516,7 +518,7 @@ Overfull \hbox (21.28377pt too wide) in paragraph at lines 112--113
 
 
 
-[5]
+[6]
 Overfull \hbox (2.03336pt too wide) in paragraph at lines 118--119
 \T1/cmr/m/n/12 Kon²truktor inicializuje dáta objektu hodnotami parametrov v kon²truktori (naplní pamät
  []
@@ -528,7 +530,7 @@ Overfull \hbox (4.33429pt too wide) in paragraph at lines 121--121
 
 )
 
-[6] (kap2/kap2.tex
+[7] (kap2/kap2.tex
 Overfull \hbox (2.46277pt too wide) in paragraph at lines 33--33
 []\T1/cmr/bx/n/14.4 Jaké jsou hlavní faktory ovliv¬ující objektovou orientovanost? 
  []
@@ -545,7 +547,7 @@ Overfull \hbox (75.81493pt too wide) in paragraph at lines 56--56
 
 
 
-[7]
+[8]
 Overfull \hbox (26.35153pt too wide) in paragraph at lines 71--71
 []\T1/cmr/bx/n/14.4 Vysv¥tlete pojmy t°ída a objekt a pouºijte správnou terminologii. 
  []
@@ -562,9 +564,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--40
 
 
 
-[8]
+[9]
 
-[9] (kap3/kap3.tex
+[10] (kap3/kap3.tex
 Overfull \hbox (1.69838pt too wide) in paragraph at lines 4--6
 \T1/cmr/m/n/12 Objekt je in²tanciou triedy. Je reprezentáciou nejakej entity, ktorá má stav reprezentovaný
  []
@@ -591,9 +593,9 @@ Overfull \hbox (5.24649pt too wide) in paragraph at lines 26--26
 
 
 
-[10])
+[11])
 
-[11] (kap4/kap4.tex
+[12] (kap4/kap4.tex
 Overfull \hbox (21.1935pt too wide) in paragraph at lines 2--2
 []\T1/cmr/bx/n/14.4 Jaký je rozdíl mezi funk£ní a objektovou dekompozicí programu? 
  []
@@ -615,9 +617,9 @@ Overfull \hbox (39.9214pt too wide) in paragraph at lines 29--31
 
 )
 
-[12]
+[13]
 
-[13] (kap5/kap5.tex
+[14] (kap5/kap5.tex
 Overfull \hbox (24.15707pt too wide) in paragraph at lines 7--8
 \T1/cmr/m/n/12 Kombinovanie s inými triedami, skladanie, roz²írenie o nové chovanie, pozmenenie existujúceho
  []
@@ -649,9 +651,9 @@ Overfull \hbox (3.53519pt too wide) in paragraph at lines 28--28
 
 
 
-[14])
+[15])
 
-[15] (kap6/kap6.tex
+[16] (kap6/kap6.tex
 Overfull \hbox (55.25668pt too wide) in paragraph at lines 6--6
 []\T1/cmr/bx/n/14.4 Uve¤te správné a ²patné p°íklady vztahu "generalizace-specializace". 
  []
@@ -663,33 +665,42 @@ Overfull \hbox (11.51857pt too wide) in paragraph at lines 9--10
 
 
 
-[16]
+[17]
 Overfull \hbox (18.89536pt too wide) in paragraph at lines 43--43
 []\T1/cmr/bx/n/14.4 Jak se pouºití ^^Rprotected^^P projeví ve vztahu p°edka a potomka? 
  []
 
 )
 
-[17] (main.aux)
+[18] (kap7/kap7.tex
+Overfull \hbox (7.73529pt too wide) in paragraph at lines 2--2
+[]\T1/cmr/bx/n/14.4 Jaký je rozdíl mezi shadowing a overriding p°ekrytím? Uve¤te
+ []
+
+
+
+[19])
+
+[20] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E6DA4C0D75B5C06E97B3EA90BC5CDC12;24953.
+(rerunfilecheck)             Checksum: A8C49B0800749105F7AA114A2CB21B87;29136.
  ) 
 Here is how much of TeX's memory you used:
- 13309 strings out of 475585
- 204722 string characters out of 5769764
- 881111 words of memory out of 5000000
- 35872 multiletter control sequences out of 15000+600000
+ 13346 strings out of 475585
+ 205281 string characters out of 5769764
+ 883115 words of memory out of 5000000
+ 35888 multiletter control sequences out of 15000+600000
  572596 words of font info for 75 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  79i,6n,93p,675b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/filip/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk> </home/filip/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk> </home/filip/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/filip/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk> </home/filip/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk> </home/filip/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1440.pk> </home/filip/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2488.pk>
-Output written on main.pdf (18 pages, 210775 bytes).
+Output written on main.pdf (21 pages, 229915 bytes).
 PDF statistics:
- 785 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 537 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 875 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 641 words of extra memory for PDF output out of 10000 (max. 10000000)
 

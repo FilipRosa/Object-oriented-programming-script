@@ -1,0 +1,39 @@
+\section{Dědičnost - polymorfismus}
+\subsection{Jaký je rozdíl mezi shadowing a overriding překrytím? Uveďte příklady.}
+Shadowing je statické prekrytie, kedy nová inštancia potomka zatieni metódu predka. Čiastočné chovanie objektu teda odpovedá trieda, v roli ktorej vystupuje.
+
+Overriding je dynamické prekrytie, kedy sa vždy použije metóda potomka, pokiaľ ju má implementovanú. Čiastočné chovanie objektu teda odpovedá triede, jej je tento objekt inštanciou.
+
+\subsection{Co rozumíme polymorfismem a s čím to souvisí?}
+Polymorfizmus je schopnosť objektov vystupovať v rôznych roliach a podľa toho sa aj chovať. Objekt kombinuje svoje chovanie s chovaním predka. Súvisí to so substitučným princípom, teda zastupiteľnosťou predka potomkom.
+
+\subsection{Co rozumíme polymorfním přiřazením?}
+Zdroj priradenia je iného typu než cieľ priradenia.
+
+\subsection{Co je časná vazba? Uveďte příklady.}
+Prekladač za normálnych okolností využíva to, že pri volaní metódy vyhodnocuje typ inštanciu už v dobe prekladu. V metóde Withdraw sa zavolá metóda CanWithdraw predka.
+
+\subsection{Co je pozdní vazba? Uveďte příklady.}
+Prekladač vyhodnocuje typ inštanciu až v okamžiku volania. Použijeme virtual.
+
+
+\subsection{Popište, co je virtuální metoda a její vlastnosti.}
+Používa sa, pokiaľ chceme prenechať rozhodnutie, ktorá prekrytá metóda bude volaná až v priebehu programu (overriding). Dávame prekladaču najavo, že chceme využívať neskorú väzbu. Jedenkrát označená metóda ako virtuálna, zostane virtuálna vo všetkých potomkoch.
+
+\subsection{Popište, co je tabulka virtuálních metod a jak funguje.}
+Akonáhle niektorú metódu definujeme ako virtuálnu, prekladač pridá k triede ,,neviditeľný pointer" ktorý ukazuje do VMT. Pre každú triedu, ktorá má aspoň jednu virtuálnu metódu, prekladač vytvorí vlastnú VMT. Tabuľka obsahuje pointery na virtuálne metódy. Je spoločná pre všetky inštancie danej triedy.
+
+\subsection{Může být konstruktor virtuální? A proč?}
+Nemôže. Pred jeho volaním ešte nie je vytvorený odkaz do VMT.
+
+\subsection{Může být destruktor virtuální? A proč?}
+Áno. Zabezpečí, že pri vymazávaní objektu sa najprv zavolá deštruktor podtriedy, a až potom deštruktor základnej triedy.
+
+\subsection{Kdy mluvíme v C++ o polymorfismu a jak se to projeví v návrhu?}
+Je spojená s dedičnosťou. Musia byť použité virtuálne metódy (overriding). Stále ide o zastúpiteľnosť predka potomkom.
+
+\subsection{Co je polymorfní datová struktura a k čemu ji využíváme?}
+Je to štruktúra, ktorá obsahuje objekty rôznych tried (pole, zoznam, ...). Po takto uložených objektoch môžeme volať iba spoločné metódy predka. Pre volanie ostatných metód objektu je nutné pretypovávať.  
+
+\subsection{Kdy potřebujeme virtuální destruktor? S čím to souvisí?}
+Potrebujeme ho, pokiaľ začneme v programe využívať polymorfizmus. Zabezpečí, že pri vymazávaní objektu sa najprv zavolá deštruktor podtriedy, a až potom deštruktor základnej triedy.

@@ -1,67 +1,80 @@
 \contentsline {section}{Obsah}{1}{section*.1}%
-\contentsline {section}{\numberline {1}Modularita}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Co je hlavním motivem pro vývoj programovacího paradigmatu od imperativního k objektovému?}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Co je imperativní programování?}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Co je modulární programování?}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Jaké jsou hlavní faktory kvality software?}{3}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Co je pochopitelnost modulu? Uveďte příklad.}{3}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Co je samostatnost modulu? Uveďte příklad.}{3}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Co je kombinovatelnost modulu? Uveďte příklad.}{4}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Co je zapouzdření modulu? Uveďte příklad.}{4}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}Co je explicitní rozhraní modulu? Uveďte příklad.}{4}{subsection.1.9}%
-\contentsline {subsection}{\numberline {1.10}Co je syntaktická podpora modularity?}{4}{subsection.1.10}%
-\contentsline {subsection}{\numberline {1.11}Co je pět kritérií pro dobrou modularitu?}{4}{subsection.1.11}%
-\contentsline {subsection}{\numberline {1.12}Co se rozumí pěti pravidly zajišťující dobrou modularitu?}{4}{subsection.1.12}%
-\contentsline {subsection}{\numberline {1.13}Popište jednotlivá kritéria dobré modularity. Uveďte příklady.}{5}{subsection.1.13}%
-\contentsline {subsection}{\numberline {1.14}Popište jednotlivá pravidla pro dobrou modularitu. Uveďte příklady.}{5}{subsection.1.14}%
-\contentsline {subsection}{\numberline {1.15}K čemu je konstruktor? Uveďte příklad.}{6}{subsection.1.15}%
-\contentsline {subsection}{\numberline {1.16}K čemu je destruktor, kdy ho potřebujeme a kdy ne? Uveďte příklad.}{6}{subsection.1.16}%
-\contentsline {section}{\numberline {2}Třídy a objekty}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Co je hlavními příčinami potřeby změn software?}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Jaké jsou hlavní faktory ovlivňující objektovou orientovanost?}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Vysvětlete, co rozumíme pojmy objektově orientovaná metoda (přístup) a jazyk.}{7}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Vysvětlete, co rozumíme podporou objektově orientované implementace.}{8}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Vysvětlete, co rozumíme podporou opakované použitelnosti.}{8}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Vysvětlete pojmy třída a objekt a použijte správnou terminologii.}{8}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Zdůrazněte vlastnosti třídy z pohledu modularity.}{8}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Vysvětlete princip zapouzdření v OOP.}{8}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Vysvětlete princip zasílání zpráv.}{8}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Vysvětlete principy deklarace a definice jednoduché třídy v C++.}{8}{subsection.2.10}%
-\contentsline {section}{\numberline {3}Návrh programu I}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Vysvětlete, jak vznikají objekty třídy, pojem konstruktor a principy práce s ním v C++.}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Vysvětlete, jak zanikají objekty třídy, pojem destruktor a principy práce s ním v C++.}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Vysvětlete rozdíl mezi statickou a dynamickou deklarací objektů v C++.}{10}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Jak se dá postupovat, pokud chceme v zadání programu nalézt třídy, jejich metody a datové členy?}{10}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Kdy a proč potřebujeme použit více konstruktorů jedné třídy?}{10}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Kdy potřebujeme deklarovat a definovat destruktor?}{10}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Co jsou výchozí konstruktory a destruktory a k čemu je potřebujeme?}{10}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Jaké typy metod obvykle musíme deklarovat a definovat?}{11}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Co jsou objektové kompozice a k čemu jsou dobré?}{11}{subsection.3.9}%
-\contentsline {section}{\numberline {4}Objektová dekompozice a třída jako objekt}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Jaký je rozdíl mezi funkční a objektovou dekompozicí programu?}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Proč preferujeme objektovou dekompozici a jaké jsou hlavní problémy funkční dekompozice?}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Za jakých podmínek můžeme považovat třídu za objekt a jak to implementovat v C++?}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Vysvětlete rozdíl mezi členskými položkami třídy a instance a popište jejich dostupnost.}{12}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Jak můžeme v C++ důsledně odlišovat práci s členskými položkami tříd a instancí?}{12}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Potřebuje třída v roli objektu konstruktor resp. destruktor a proč?}{13}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Úvod do dědičnosti}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Které dva klíčové požadavky řešíme pomocí dědičnosti?}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Jaké návrhové požadavky máme na použití tříd (co s nimi můžeme dělat)?}{14}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Jaký je rozdíl mezi dědičností a skládáním? Co mají společného?}{14}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}V jakých rolích vystupují třídy v dědičnosti? Použijte správnou terminologii.}{14}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Vysvětlete v jakém obecném vztahu je třída, ze které se dědí, se třídou, která dědí.}{14}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Co všechno se dědí, co ne a proč?}{14}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Co rozumíme jednoduchou dědičností a jak s tím souvisí hierarchie tříd v dědičnosti?}{14}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Co je Liskové substituční princip a jak se projevuje v dědičnosti?}{14}{subsection.5.8}%
-\contentsline {subsection}{\numberline {5.9}V jakém pořadí se volají a vykonávají konstruktory při použití dědičnosti?}{15}{subsection.5.9}%
-\contentsline {section}{\numberline {6}Dědičnost – změna chování}{16}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Co rozumíme paradoxem specializace a rozšíření?}{16}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Uveďte správné a špatné příklady vztahu "generalizace-specializace".}{16}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Co rozumíme v dědičnosti změnou chování?}{16}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Co rozumíme přetížením? Jedná se o rozšíření nebo změnu chování?}{16}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Uveďte různé typy přetížení.}{16}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Co rozumíme překrytím? Jedná se o rozšíření nebo změnu chování?}{16}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Jaký princip porušujeme, použijeme-li „protected“ a proč?}{17}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}Jaký problém přináší potřeba změny chování v dědičnosti?}{17}{subsection.6.8}%
-\contentsline {subsection}{\numberline {6.9}Popište, jak se prakticky projevuje různá míra přístupu k položkám třídy.}{17}{subsection.6.9}%
-\contentsline {subsection}{\numberline {6.10}Jak se použití „protected“ projeví ve vztahu předka a potomka?}{17}{subsection.6.10}%
+\contentsline {section}{\numberline {1}Modularita}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Co je hlavním motivem pro vývoj programovacího paradigmatu od imperativního k objektovému?}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Co je imperativní programování?}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Co je modulární programování?}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Jaké jsou hlavní faktory kvality software?}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Co je pochopitelnost modulu? Uveďte příklad.}{4}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Co je samostatnost modulu? Uveďte příklad.}{4}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Co je kombinovatelnost modulu? Uveďte příklad.}{5}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Co je zapouzdření modulu? Uveďte příklad.}{5}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Co je explicitní rozhraní modulu? Uveďte příklad.}{5}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Co je syntaktická podpora modularity?}{5}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}Co je pět kritérií pro dobrou modularitu?}{5}{subsection.1.11}%
+\contentsline {subsection}{\numberline {1.12}Co se rozumí pěti pravidly zajišťující dobrou modularitu?}{5}{subsection.1.12}%
+\contentsline {subsection}{\numberline {1.13}Popište jednotlivá kritéria dobré modularity. Uveďte příklady.}{6}{subsection.1.13}%
+\contentsline {subsection}{\numberline {1.14}Popište jednotlivá pravidla pro dobrou modularitu. Uveďte příklady.}{6}{subsection.1.14}%
+\contentsline {subsection}{\numberline {1.15}K čemu je konstruktor? Uveďte příklad.}{7}{subsection.1.15}%
+\contentsline {subsection}{\numberline {1.16}K čemu je destruktor, kdy ho potřebujeme a kdy ne? Uveďte příklad.}{7}{subsection.1.16}%
+\contentsline {section}{\numberline {2}Třídy a objekty}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Co je hlavními příčinami potřeby změn software?}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Jaké jsou hlavní faktory ovlivňující objektovou orientovanost?}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Vysvětlete, co rozumíme pojmy objektově orientovaná metoda (přístup) a jazyk.}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Vysvětlete, co rozumíme podporou objektově orientované implementace.}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Vysvětlete, co rozumíme podporou opakované použitelnosti.}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Vysvětlete pojmy třída a objekt a použijte správnou terminologii.}{9}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Zdůrazněte vlastnosti třídy z pohledu modularity.}{9}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Vysvětlete princip zapouzdření v OOP.}{9}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Vysvětlete princip zasílání zpráv.}{9}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Vysvětlete principy deklarace a definice jednoduché třídy v C++.}{9}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Návrh programu I}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Vysvětlete, jak vznikají objekty třídy, pojem konstruktor a principy práce s ním v C++.}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Vysvětlete, jak zanikají objekty třídy, pojem destruktor a principy práce s ním v C++.}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Vysvětlete rozdíl mezi statickou a dynamickou deklarací objektů v C++.}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Jak se dá postupovat, pokud chceme v zadání programu nalézt třídy, jejich metody a datové členy?}{11}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Kdy a proč potřebujeme použit více konstruktorů jedné třídy?}{11}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Kdy potřebujeme deklarovat a definovat destruktor?}{11}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Co jsou výchozí konstruktory a destruktory a k čemu je potřebujeme?}{11}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Jaké typy metod obvykle musíme deklarovat a definovat?}{12}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Co jsou objektové kompozice a k čemu jsou dobré?}{12}{subsection.3.9}%
+\contentsline {section}{\numberline {4}Objektová dekompozice a třída jako objekt}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Jaký je rozdíl mezi funkční a objektovou dekompozicí programu?}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Proč preferujeme objektovou dekompozici a jaké jsou hlavní problémy funkční dekompozice?}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Za jakých podmínek můžeme považovat třídu za objekt a jak to implementovat v C++?}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Vysvětlete rozdíl mezi členskými položkami třídy a instance a popište jejich dostupnost.}{13}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Jak můžeme v C++ důsledně odlišovat práci s členskými položkami tříd a instancí?}{13}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Potřebuje třída v roli objektu konstruktor resp. destruktor a proč?}{14}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Úvod do dědičnosti}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Které dva klíčové požadavky řešíme pomocí dědičnosti?}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Jaké návrhové požadavky máme na použití tříd (co s nimi můžeme dělat)?}{15}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Jaký je rozdíl mezi dědičností a skládáním? Co mají společného?}{15}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}V jakých rolích vystupují třídy v dědičnosti? Použijte správnou terminologii.}{15}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Vysvětlete v jakém obecném vztahu je třída, ze které se dědí, se třídou, která dědí.}{15}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Co všechno se dědí, co ne a proč?}{15}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Co rozumíme jednoduchou dědičností a jak s tím souvisí hierarchie tříd v dědičnosti?}{15}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Co je Liskové substituční princip a jak se projevuje v dědičnosti?}{15}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}V jakém pořadí se volají a vykonávají konstruktory při použití dědičnosti?}{16}{subsection.5.9}%
+\contentsline {section}{\numberline {6}Dědičnost – změna chování}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Co rozumíme paradoxem specializace a rozšíření?}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Uveďte správné a špatné příklady vztahu "generalizace-specializace".}{17}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Co rozumíme v dědičnosti změnou chování?}{17}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Co rozumíme přetížením? Jedná se o rozšíření nebo změnu chování?}{17}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Uveďte různé typy přetížení.}{17}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Co rozumíme překrytím? Jedná se o rozšíření nebo změnu chování?}{17}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Jaký princip porušujeme, použijeme-li „protected“ a proč?}{18}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Jaký problém přináší potřeba změny chování v dědičnosti?}{18}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Popište, jak se prakticky projevuje různá míra přístupu k položkám třídy.}{18}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Jak se použití „protected“ projeví ve vztahu předka a potomka?}{18}{subsection.6.10}%
+\contentsline {section}{\numberline {7}Dědičnost - polymorfismus}{19}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Jaký je rozdíl mezi shadowing a overriding překrytím? Uveďte příklady.}{19}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Co rozumíme polymorfismem a s čím to souvisí?}{19}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Co rozumíme polymorfním přiřazením?}{19}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Co je časná vazba? Uveďte příklady.}{19}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Co je pozdní vazba? Uveďte příklady.}{19}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Popište, co je virtuální metoda a její vlastnosti.}{19}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Popište, co je tabulka virtuálních metod a jak funguje.}{19}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Může být konstruktor virtuální? A proč?}{19}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}Může být destruktor virtuální? A proč?}{20}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Kdy mluvíme v C++ o polymorfismu a jak se to projeví v návrhu?}{20}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Co je polymorfní datová struktura a k čemu ji využíváme?}{20}{subsection.7.11}%
+\contentsline {subsection}{\numberline {7.12}Kdy potřebujeme virtuální destruktor? S čím to souvisí?}{20}{subsection.7.12}%
