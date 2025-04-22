@@ -54,3 +54,14 @@
 \contentsline {subsection}{\numberline {5.7}Co rozumíme jednoduchou dědičností a jak s tím souvisí hierarchie tříd v dědičnosti?}{14}{subsection.5.7}%
 \contentsline {subsection}{\numberline {5.8}Co je Liskové substituční princip a jak se projevuje v dědičnosti?}{14}{subsection.5.8}%
 \contentsline {subsection}{\numberline {5.9}V jakém pořadí se volají a vykonávají konstruktory při použití dědičnosti?}{15}{subsection.5.9}%
+\contentsline {section}{\numberline {6}Dědičnost – změna chování}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Co rozumíme paradoxem specializace a rozšíření?}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Uveďte správné a špatné příklady vztahu "generalizace-specializace".}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Co rozumíme v dědičnosti změnou chování?}{16}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Co rozumíme přetížením? Jedná se o rozšíření nebo změnu chování?}{16}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Uveďte různé typy přetížení.}{16}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Co rozumíme překrytím? Jedná se o rozšíření nebo změnu chování?}{16}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Jaký princip porušujeme, použijeme-li „protected“ a proč?}{17}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Jaký problém přináší potřeba změny chování v dědičnosti?}{17}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Popište, jak se prakticky projevuje různá míra přístupu k položkám třídy.}{17}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Jak se použití „protected“ projeví ve vztahu předka a potomka?}{17}{subsection.6.10}%

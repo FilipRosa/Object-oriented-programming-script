@@ -1,0 +1,44 @@
+\section{Dědičnost – změna chování}
+\subsection{Co rozumíme paradoxem specializace a rozšíření?}
+Vzťah dedičnosti je vzťahom obecný - špeciálny. Potomok je teda špeciálnym prípadom predka. Paradoxné je, že pri rozšírenní dochádza k tomu, že potomok vie viac ako ktorýkoľvek jeho predok.
+A teda čím bohatšie chovanie uvažujeme, tým menej tried ho poskytuje.
+
+\subsection{Uveďte správné a špatné příklady vztahu "generalizace-specializace".}
+\textbf{Zlý príklad} - vzťah bodu a kružnice. Mohli by sme potrebovať rozšíriť bod o prácu s polomerom, t.j. pridať nové chovanie. Avšak potreba rozšírenia sama o sebe nie je dostačujúca pre použitie dedičnosti. Nie je splnená potreba špecializácie (kružnica nie je špeciálnym prípadom bodu).
+
+\textbf{Dobrý príklad} - vozidlo je všeobecná kategória reprezentujúca prostriedky na prepravu, takže bicykel môžeme považovať za špeciálny typ vozidla - má konrkétne vlasnosti.
+
+\subsection{Co rozumíme v dědičnosti změnou chování?}
+Pokiaľ je chovanie deklarované v predkovi, môžeme ho v potomkovi deklarovať znovu. Existuje potom viac metód rovnakého mena. Deklarované chovanie potom musíme v potomkovi implementovať.
+
+\subsection{Co rozumíme přetížením? Jedná se o rozšíření nebo změnu chování?}
+Preťaženie je situácia, keď daná metóda má rovnaké meno ale má iné parametre, iné typy parametrov, inú návratovú hodnotu. Preťaženie nie je zmena chovania, napriek tomu, že má rovnaké meno. Ide teda o rozšírenie chovania.
+
+\subsection{Uveďte různé typy přetížení.}
+\begin{itemize}
+    \item meno metódy zostáva rovnaké
+    \item iný počet parametrov
+    \item iné dátové typy parametrov
+    \item iná návratová hodnota (nie v C++)
+\end{itemize}
+
+Tieto typy je možné kombinovať.
+
+\subsection{Co rozumíme překrytím? Jedná se o rozšíření nebo změnu chování?}
+Prekrytie je situácia, kedy metóda potomka má rovnakú deklaráciu ako metóda predka. Potomok dedí aj metódy predka. Má teda dve metódy s rovnakou deklaráciou. Je to zmena chovania. Typickým príkladom použitia sú konštruktory.
+
+\subsection{Jaký princip porušujeme, použijeme-li „protected“ a proč?}
+Porušujeme princíp zapúzdrenia. Pri zmene chovania môže vzniknúť potreba pracovať so súkromnou časťou predka.
+
+\subsection{Jaký problém přináší potřeba změny chování v dědičnosti?}
+Prekrytie metód, polymorfizmus, zhoršenie čitateľnosti
+
+\subsection{Popište, jak se prakticky projevuje různá míra přístupu k položkám třídy.}
+\begin{itemize}
+    \item \textbf{public} - položka triedy je dostupná odkiaľkoľvek
+    \item \textbf{private} - položka triedy je prístupná iba v rámci triedy, v ktorej bola definovaná
+    \item \textbf{protected} - položka je prístupná v triedach, ktoré dedia danú triedu, ale nie úplne voľne pre akýkoľvek kód
+\end{itemize}
+
+\subsection{Jak se použití „protected“ projeví ve vztahu předka a potomka?}
+Prejaví sa to tak, že protected položky sú prístupné v podtriedach, aj keď sú inak skryté pred zbytkom programu. Potomok má priamy prístup k protected metódam a atribútom. Môže protected metódy prekryť a zmeniť ich chovanie. Pracuje s položkami akoby to boli jeho vlastné.
